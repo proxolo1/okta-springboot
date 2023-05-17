@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      uri : mongodb+srv://proxolo:proxolo@proxolo.yllmdjv.mongodb.net/?retryWrites=true&w=majority
+      database : Auth
+
+server:
+  port : 9000
+
+okta:
+  oauth2:
+    issuer: https://dev-08597593.okta.com/oauth2/default
+    client-id: 0oa9fpwptkBeupNuu5d7
+    client-secret: "-zNmCzr-GSrFxqseFqOB72txF4zoJmH8TT7dF-Hq"
+    redirect-uri: /authorization-code/callback
